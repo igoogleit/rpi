@@ -10,9 +10,10 @@
 
 from picamzero import Camera
 from time import sleep
-cam = Carmera()
+cam = Camera()
 cam.start preview()
-cam.record_video('vid/Check1.mp4,duration=5)
+//cam.take_photo("img/CheckImg1.jpeg")
+//cam.record_video('vid/Check1.mp4,duration=5)
                  cam.stop_preview()
                  sleep(5)
 
